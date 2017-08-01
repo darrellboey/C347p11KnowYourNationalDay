@@ -137,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                     });
+
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
 
@@ -144,7 +145,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
         return super.onOptionsItemSelected(item);
-
     }
 
     @Override
@@ -152,5 +152,4 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.options, menu);
         return true;
     }
-
 }
